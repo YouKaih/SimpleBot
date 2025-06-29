@@ -1,0 +1,8 @@
+discord.py>=2.0.0 # Or specific version if known, e.g. ==2.5.2
+yt-dlp # Or specific version, e.g. ==2025.6.25
+PyNaCl # Or specific version, e.g. ==1.5.0
+python-dotenv # Or specific version, e.g. ==1.1.1
+
+# Add known direct dependencies of discord.py often needed explicitly by users for clarity or specific features
+aiohttp>=3.7.4,<4.0.0
+# Add other primary dependencies if known, otherwise pip will resolve them.
